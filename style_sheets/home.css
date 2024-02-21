@@ -1,0 +1,167 @@
+/* Initialize initial margin and padding with 0px */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* give background colour to body to identify initialy */
+body{
+    background-color: #3c3c3c;
+}
+
+/* design navbar */
+.Navbar{
+    display: flex;
+    align-items: end;
+    background-color: #1e1e1e;
+    height: 98px;
+    width: 100%;
+    border-bottom:2px solid #3c3c3c;
+    box-sizing: border-box;
+}
+.left_navbar{
+    width: 50%;
+    height: 100%;
+    border-right:0.5px solid #3c3c3c;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.right_navbar{
+    width: 50%;
+    height: 100%;
+    border-left:0.5px solid #3c3c3c;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.content{
+    color: white;
+    height: 79%;
+    width: 97%;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    
+}
+.topLeft_navbar, .topRight_navbar{
+    display: flex;
+    width: 100%;
+    background-color: #1e1e1e;
+}
+.right-text select{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #1e1e1e;
+    color: white;
+    padding: 7px;
+}
+.topLeft_navbar{
+    height: 40%;
+}
+.topRight_navbar{
+    height: 40%;
+}
+.right-text{
+    border-width: 1px 0px 1px 1px;
+    border-color: gray;
+    border-style: solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    width: 80px;
+    height: 100%;
+}
+.sendbutton{
+    border-width: 1px 1px 1px 0px;
+    border-color: gray;
+    border-style: solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #0e639c;
+    width: 80px;
+    height: 100%;
+}
+
+.searchbar{
+    border: 1px solid grey;
+    height: 100%;
+    width: calc(100% - 180px);
+}
+.searchbar input{
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: #1e1e1e;
+    height: 100%;
+    width: 100%;
+}
+.searchbar input:focus{
+    border: none;
+}
+.sendbutton button:focus{
+    border: none;
+}
+
+.status, .size, .time{
+    display: flex;
+    align-items: center;
+}
+.status, .size, .time{
+    margin-left: 20px;
+}
+
+.resStatus, .resSize, .resTime{
+    font-weight: bold;
+    margin-left: 4px;
+    color: green;
+}
+
+.bottomLeft_navbar{
+    display: flex;
+    align-items: center;
+    height: 60%;
+}
+.right_buttons{
+    margin-right: 22px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+} 
+
+.right_buttons:hover{
+    cursor: pointer;
+     border-bottom: 2px solid #0e639c;
+}
+.bottomRight_navbar{
+    height: 60%;
+    margin-left: 20px;
+    display: flex;
+}
+
+/* body */
+.body{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background-color:#1e1e1e;
+    color: white;
+}
+
+.left-body{
+    width: 50%;
+    height: 100%;
+    border-right: 0.5px solid #3c3c3c;
+}
+.right-body{
+    width: 50%;
+    height: 100%;
+    border-left: 0.5px solid #3c3c3c;
+}
+
+.body .left-body .bottom-section .input-params{
+    display: flex;
+}
