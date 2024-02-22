@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style_sheets/home.css">
+    <link rel="stylesheet" href="./style_sheets/home.css">
     <title>Thunder Client</title>
-    <script src="../script/script.js"></script>
+    <script src="./script/script.js"></script>
 </head>
 <body>
 
@@ -30,7 +30,7 @@
                     <!-- search area in middle -->
                     <div class="searchbar"><input type="search" name="searchBar" placeholder="Enter URL" id="searchBar"></div>
                     <!-- send button at right -->
-                    <div class="sendbutton"><p  onclick="sendQuery()">Send</p></div>
+                    <div class="sendbutton"><p  onclick="sendResponse()">Send</p></div>
                 </div>
                 <!-- bottom left part of navbar -->
                 <div class="bottomLeft_navbar">
@@ -49,9 +49,9 @@
             <div class="content">
                 <!-- top right part of navbar -->
                 <div class="topRight_navbar">
-                    <div class="status response">Status: <div class="resStatus " id="resStatus"></div></div>
-                    <div class="size response">Size: <div class="resSize">185 Bytes</div></div>
-                    <div class="time response">Time: <div class="resTime">47 ms</div></div>
+                    <div class="status response">Status: <div class="resStatus " id="resStatus">No Status</div></div>
+                    <div class="size response">Size: <div class="resSize" id="resSize">0 Bytes</div></div>
+                    <div class="time response">Time: <div class="resTime" id="resTime">0 ms</div></div>
                 </div>
                 <!-- bottom right part of navbar -->
                 <div class="bottomRight_navbar">

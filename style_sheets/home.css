@@ -76,6 +76,7 @@ body{
     height: 100%;
 }
 .sendbutton{
+    cursor: pointer;
     border-width: 1px 1px 1px 0px;
     border-color: gray;
     border-style: solid;
@@ -85,6 +86,10 @@ body{
     background-color: #0e639c;
     width: 80px;
     height: 100%;
+}
+
+.sendbutton:hover{
+    background-color: #099ceb;
 }
 
 .searchbar{
@@ -175,6 +180,9 @@ body{
     display: flex;
     justify-content: center;
 }
+.query-button{
+    border-bottom: 2px solid #0e639c;
+}
 .outputArea{
     width: 95%;
     height: 80%;
@@ -182,6 +190,7 @@ body{
 .outputArea textarea{
     background-color: #1e1e1e;
     margin-top: 50px;
+    border: none;
     width: 90%;
     color: white;
     height: 100%;
@@ -229,11 +238,13 @@ body{
     outline: none;
 }
 .bottom-section{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .top_header{
     margin-left: 15%;
     margin-top: 2%;
-    color: #9c9a9a;
+    font-size: larger;
+    color: #bdb9b9;
 }
+
